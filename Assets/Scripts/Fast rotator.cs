@@ -9,7 +9,7 @@ public class Fastrotator : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Rotate(new Vector3(-30, 00, 00) * Time.deltaTime * 3);
+        transform.Rotate(new Vector3(-30, 00, 00) * Time.deltaTime * 2);
     }
 }
 
